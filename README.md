@@ -4,7 +4,7 @@
 
 A Discord bot that logs user emoji usage. Updated to work with v13 of [peterthehan's create-discord-bot](https://github.com/peterthehan/create-discord-bot), and also added an isCustom column to the emoji log.
 
-## My Updates in this Fork
+## Fork Updates
 
 I know this repo this is forked from is archived, but it still seemed like a great solution for tracking emoji use on a Discord server. As such, I've made the necessary changes to get this working with v13 of [peterthehan's create-discord-bot repo](https://github.com/peterthehan/create-discord-bot). This really only involved updating the text message type check and changing the bot folder from /widgets to /bots. Updating the message event to messageCreate event wasn't necessary, but it was an easy update that should help futureproof a bit.
 
