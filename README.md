@@ -2,7 +2,15 @@
 
 [![Discord](https://discordapp.com/api/guilds/258167954913361930/embed.png)](https://discord.gg/WjEFnzC) [![Twitter Follow](https://img.shields.io/twitter/follow/peterthehan.svg?style=social)](https://twitter.com/peterthehan)
 
-A Discord bot that logs user emoji usage. Updated to work with v13 of peterthehan's created-discord-bot, and also added an isCustom column to the emoji log.
+A Discord bot that logs user emoji usage. Updated to work with v13 of [peterthehan's create-discord-bot](https://github.com/peterthehan/create-discord-bot), and also added an isCustom column to the emoji log.
+
+## My Updates in this Fork
+
+I know this repo this is forked from is archived, but it still seemed like a great solution for tracking emoji use on a Discord server. As such, I've made the necessary changes to get this working with v13 of [peterthehan's create-discord-bot repo](https://github.com/peterthehan/create-discord-bot). This really only involved updating the text message type check and changing the bot folder from /widgets to /bots. Updating the message event to messageCreate event wasn't necessary, but it was an easy update that should help futureproof a bit.
+
+I also added an isCustom column to the emojis sheet, which is minor but nice for easy filtering when determining which emoji should be removed on a server. 
+
+## Warnings, FYI
 
 > Be aware that while the Google Sheets API has a free tier, it has limits in place. You can read more about the API limits [here](https://developers.google.com/sheets/api/limits) and the document limits [here](https://support.google.com/drive/answer/37603).
 
