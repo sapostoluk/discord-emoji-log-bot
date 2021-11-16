@@ -5,7 +5,7 @@ module.exports = (message) => {
     return false;
   }
 
-  if (message.channel.type !== "text") {
+  if (message.channel.type !== "GUILD_TEXT") {
     return false;
   }
 
