@@ -13,12 +13,12 @@ module.exports = (message, tokens) => {
       const emoji = message.channel.guild.emojis.resolve(emojiId);
       return {
         title: "emojis",
-        joinData: { id: emojiId, name: emoji.name, isAnimated: emoji.animated },
+        joinData: { id: emojiId, name: emoji.name, isAnimated: emoji.animated, isCustom: "TRUE", },
       };
     }),
     ...getUniqueEmojiIds(tokens, "defaultEmoji").map((emojiId) => ({
       title: "emojis",
-      joinData: { id: emojiId, name: emojiId, isAnimated: false },
+      joinData: { id: emojiId, name: emojiId, isAnimated: false, isCustom: "FALSE", },
     })),
     {
       title: "users",
