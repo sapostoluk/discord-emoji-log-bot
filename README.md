@@ -2,7 +2,7 @@
 
 [![Discord](https://discordapp.com/api/guilds/258167954913361930/embed.png)](https://discord.gg/WjEFnzC) [![Twitter Follow](https://img.shields.io/twitter/follow/peterthehan.svg?style=social)](https://twitter.com/peterthehan)
 
-A Discord bot that logs user emoji usage.
+A Discord bot that logs user emoji usage. Updated to work with v13 of peterthehan's created-discord-bot.
 
 > Be aware that while the Google Sheets API has a free tier, it has limits in place. You can read more about the API limits [here](https://developers.google.com/sheets/api/limits) and the document limits [here](https://support.google.com/drive/answer/37603).
 
@@ -31,7 +31,7 @@ A Discord bot that logs user emoji usage.
    PRIVATE_KEY=private_key_value_here
    ```
 
-3. Download this widget and move the `src-discord-emoji-log-bot` folder into the [src/widgets/](https://github.com/peterthehan/create-discord-bot/tree/master/app/src/widgets) folder created in step 1.
+3. Download this widget and move the `src-discord-emoji-log-bot` folder into the [src/bots/](https://github.com/peterthehan/create-discord-bot/tree/master/app/src/bots) folder created in step 1.
 
    > `npm i -s emoji-regex@^9.2.2 google-spreadsheet@^^3.1.15` to install this widget's dependencies.
 
