@@ -2,7 +2,7 @@
 
 [![Discord](https://discordapp.com/api/guilds/258167954913361930/embed.png)](https://discord.gg/WjEFnzC) [![Twitter Follow](https://img.shields.io/twitter/follow/peterthehan.svg?style=social)](https://twitter.com/peterthehan)
 
-A Discord bot that logs user emoji usage. Updated to work with v13 of [peterthehan's create-discord-bot](https://github.com/peterthehan/create-discord-bot), and also added an isCustom column to the emoji log.
+An old and now kinda broken Discord bot that logs user emoji usage. v1 of D.E.N.N.I.S. in Hog Hollow. Updated to work with v13 of [peterthehan's create-discord-bot](https://github.com/peterthehan/create-discord-bot), and also added an isCustom column to the emoji log.
 
 ## Fork Updates
 
